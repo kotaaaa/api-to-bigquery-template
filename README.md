@@ -1,6 +1,6 @@
-# API Client Template to store API data into BigQuery
+# Template for API Client to store API data into BigQuery
 
-## Technology
+## Techs
 
 - [Cloud Function (Python3.7)](https://cloud.google.com/functions)
 - [BigQuery](https://cloud.google.com/bigquery)
