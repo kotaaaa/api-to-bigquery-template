@@ -1,0 +1,6 @@
+# Function dependencies, for example:
+# package>=version
+numpy==1.19.4
+bigquery==0.0.8
+python-dotenv==0.20.0
+requests==2.28.1
