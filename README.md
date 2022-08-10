@@ -21,7 +21,7 @@ Made by [Draw.io](https://app.diagrams.net/)
 
 ```Shell
 # Set service account key path
-$ export GOOGLE_APPLICATION_CREDENTIALS=キーファイルパス
+$ export GOOGLE_APPLICATION_CREDENTIALS={key_file_path}
 $ gcloud auth login
 ```
 
