@@ -8,8 +8,10 @@
 - [Cloud Scheduler](https://cloud.google.com/scheduler)
 
 ## Diagram
-Made by [Draw.io](https://app.diagrams.net/)
+
 ![](diagram.drawio.svg)
+
+Made by [Draw.io](https://app.diagrams.net/)
 
 ## Data source
 
