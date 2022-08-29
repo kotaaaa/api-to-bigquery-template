@@ -7,6 +7,12 @@
 - [Cloud Pub/Sub](https://cloud.google.com/pubsub)
 - [Cloud Scheduler](https://cloud.google.com/scheduler)
 
+## Diagram
+
+![](diagram.drawio.svg)
+
+Made by [Draw.io](https://app.diagrams.net/)
+
 ## Data source
 
 - [tmdb api document](https://www.themoviedb.org/documentation/api)
@@ -15,7 +21,7 @@
 
 ```Shell
 # Set service account key path
-$ export GOOGLE_APPLICATION_CREDENTIALS=キーファイルパス
+$ export GOOGLE_APPLICATION_CREDENTIALS={key_file_path}
 $ gcloud auth login
 ```
 
