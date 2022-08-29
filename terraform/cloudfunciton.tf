@@ -5,8 +5,8 @@ resource "google_storage_bucket" "bucket" {
 
 data "archive_file" "function_archive" {
   type        = "zip"
-  source_dir  = "../src" # directory for main.py,requirement.txt
-  output_path = "../index.zip"
+  source_dir  = "../src"       # directory for main.py,requirement.txt
+  output_path = "../index.zip" # zipped file name
 }
 
 resource "google_storage_bucket_object" "archive" {
