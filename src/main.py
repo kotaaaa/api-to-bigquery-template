@@ -12,9 +12,6 @@ GCP_PROJECT = os.environ.get("GCP_PROJECT")
 
 def insert_bq_tmdb_data(event, context):
 
-    value = np.random.random()
-    dt = datetime.datetime.now().timestamp()
-
     # Construct a BigQuery client object.
     client = bigquery.Client()
     tmdbclient = apiclient()

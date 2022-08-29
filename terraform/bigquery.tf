@@ -1,3 +1,4 @@
+# BigQuery Database
 resource "google_bigquery_dataset" "collecting_db" {
   dataset_id = "collecting_db"
   access {
@@ -6,6 +7,7 @@ resource "google_bigquery_dataset" "collecting_db" {
   }
 }
 
+# BigQuery Table
 resource "google_bigquery_table" "tmdb_trending" {
   dataset_id = google_bigquery_dataset.collecting_db.dataset_id
   table_id   = "tmdb_trending"
